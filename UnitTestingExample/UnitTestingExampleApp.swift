@@ -11,7 +11,7 @@ import SwiftUI
 struct UnitTestingExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UnitTestingExampleView(isPemium: true)
         }
     }
 }
