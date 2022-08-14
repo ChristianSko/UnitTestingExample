@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D602688D28A93C360033F7E7 /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602688C28A93C360033F7E7 /* NewMockDataService.swift */; };
+		D602688F28A93C6C0033F7E7 /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602688E28A93C6C0033F7E7 /* NewMockDataService_Tests.swift */; };
 		D62824BB28A7E5F20009D855 /* UnitTestingExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62824BA28A7E5F20009D855 /* UnitTestingExampleApp.swift */; };
 		D62824BD28A7E5F20009D855 /* UnitTestingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62824BC28A7E5F20009D855 /* UnitTestingExampleView.swift */; };
 		D62824BF28A7E5F30009D855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62824BE28A7E5F30009D855 /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D602688C28A93C360033F7E7 /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
+		D602688E28A93C6C0033F7E7 /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
 		D62824B728A7E5F20009D855 /* UnitTestingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62824BA28A7E5F20009D855 /* UnitTestingExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingExampleApp.swift; sourceTree = "<group>"; };
 		D62824BC28A7E5F20009D855 /* UnitTestingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingExampleView.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 			children = (
 				D62824BA28A7E5F20009D855 /* UnitTestingExampleApp.swift */,
 				D62824BC28A7E5F20009D855 /* UnitTestingExampleView.swift */,
+				D602688C28A93C360033F7E7 /* NewMockDataService.swift */,
 				D62824C828A7E7B00009D855 /* UnitTestingViewModel.swift */,
 				D62824BE28A7E5F30009D855 /* Assets.xcassets */,
 				D62824C028A7E5F30009D855 /* Preview Content */,
@@ -98,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				D62824D028A7E8990009D855 /* UnitTestingExample_Tests.swift */,
+				D602688E28A93C6C0033F7E7 /* NewMockDataService_Tests.swift */,
 				D62824D728A7E98B0009D855 /* UnitiTestingViewModel_Tests.swift */,
 			);
 			path = UnitTestingExample_Tests;
@@ -205,6 +211,7 @@
 			files = (
 				D62824C928A7E7B00009D855 /* UnitTestingViewModel.swift in Sources */,
 				D62824BD28A7E5F20009D855 /* UnitTestingExampleView.swift in Sources */,
+				D602688D28A93C360033F7E7 /* NewMockDataService.swift in Sources */,
 				D62824BB28A7E5F20009D855 /* UnitTestingExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +222,7 @@
 			files = (
 				D62824D128A7E8990009D855 /* UnitTestingExample_Tests.swift in Sources */,
 				D62824D828A7E98B0009D855 /* UnitiTestingViewModel_Tests.swift in Sources */,
+				D602688F28A93C6C0033F7E7 /* NewMockDataService_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
